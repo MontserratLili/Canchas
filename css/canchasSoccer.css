@@ -1,0 +1,71 @@
+#canchaSoccer{
+  width: 1000px;
+  height: 500px;
+  border: 3px;
+  background: #006400;
+  margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 25px;
+}
+#porteria1{
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  border: 3px solid #FFFFFF;
+  margin-top: 125px;
+  margin-left: 0px;
+  padding: 100px;
+}
+#porteria2{
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  border: 3px solid #FFFFFF;
+  margin-top: 125px;
+  margin-left: 790px;
+  padding: 100px;
+}
+#porteria1A{
+    position: absolute;
+     width: 50px;
+     height: 100px;
+     border: 2px solid #FFFFFF;
+     -moz-border-radius: 0 100px 100px 0;
+     -webkit-border-radius: 0 100px 100px 0;
+     border-radius: 0 100px 100px 0;
+     margin-top: 200px;
+     margin-left: 209px;
+}
+
+#porteria2A{
+    position: absolute;
+     width: 50px;
+     height: 100px;
+     border: 2px solid #FFFFFF;
+     -moz-border-radius: 100px 0 0 100px;
+     -webkit-border-radius: 100px 0 0 100px;
+     border-radius: 100px 0 0 100px;
+     margin-top: 200px;
+     margin-left: 739px;
+}
+
+#centro{
+  position: absolute;
+    width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 2px solid #FFFFFF;
+     margin-top: 200px;
+     margin-left: 450px;
+}
+
+#lineaCentro{
+      position: absolute;
+      width: 1px;
+      height: 500px;
+      border: 2px solid #FFFFFF ;
+      margin-top: 0px;
+      margin-left: 500px;
+    }
