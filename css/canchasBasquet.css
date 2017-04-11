@@ -1,0 +1,97 @@
+#canchaBasquet{
+  style="display:none";
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  border: 3px;
+  background: #8E2502;
+  margin-top: 50px;
+  margin-left: 165px;
+  border-radius: 25px;
+}
+#canasta1{
+  position: absolute;
+   width: 250px;
+   height: 300px;
+   border: 2px solid #FFFFFF;
+   -moz-border-radius: 0 100px 100px 0;
+   -webkit-border-radius: 0 100px 100px 0;
+   border-radius: 0 250px 250px 0;
+   margin-top: 100px;
+   margin-left: 0px;
+}
+#canasta2{
+  position: absolute;
+   width: 250px;
+   height: 300px;
+   border: 2px solid #FFFFFF;
+   -moz-border-radius: 0 100px 100px 0;
+   -webkit-border-radius: 0 100px 100px 0;
+   border-radius: 0 250px 250px 0;
+   margin-top: 100px;
+   margin-left: 745px;
+   transform: rotate(180deg);
+}
+#canasta1A{
+  position: absolute;
+  margin-top: 14vw;
+  margin-left: -.5vw;
+  width: 14vw;
+  height: 9vw;
+  border: 2px solid #FFFFFF;
+  transform: perspective(20vw) rotateY(45deg);
+}
+
+#canasta2A{
+  position: absolute;
+  margin-top: 14vw;
+  margin-left: 62vw;
+  width: 14vw;
+  height: 9vw;
+  border: 2px solid #FFFFFF;
+  transform: perspective(20vw) rotateY(45deg);
+}
+
+#canasta1B{
+  position: absolute;
+    width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 2px solid #FFFFFF;
+     margin-top: 203px;
+     margin-left: 90px;
+}
+
+#canasta2B{
+  position: absolute;
+    width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 2px solid #FFFFFF;
+     margin-top: 203px;
+     margin-left: 799px;
+}
+#centroBasquet{
+  position: absolute;
+    width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 2px solid #FFFFFF;
+     margin-top: 200px;
+     margin-left: 450px;
+}
+
+#lineaCentroB{
+      position: absolute;
+      width: 1px;
+      height: 500px;
+      border: 2px solid #FFFFFF ;
+      margin-top: 0px;
+      margin-left: 500px;
+    }
