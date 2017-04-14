@@ -1,13 +1,13 @@
 function mostrarSoccer(){
-document.getElementById("canchaSoccer").style.display = "none";
+  document.getElementById("canchaSoccer").style.display = "block";
 }
 
 function mostrarBasquet(){
-document.getElementById("canchaBasquet").style.display = "none";
+  document.getElementById("canchaBasquet").style.display = "block";
 }
 
 function mostrarTenis(){
-document.getElementById("canchaTenis").style.display = "none";
+  document.getElementById("canchaTenis").style.display = "block";
 }
 
 soccer.addEventListener("click", mostrarSoccer);

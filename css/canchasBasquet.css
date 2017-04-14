@@ -1,5 +1,5 @@
 #canchaBasquet{
-  style="display:none";
+  display: none;
   position: relative;
   width: 1000px;
   height: 500px;
@@ -9,89 +9,106 @@
   margin-left: 165px;
   border-radius: 25px;
 }
-#canasta1{
-  position: absolute;
-   width: 250px;
-   height: 300px;
-   border: 2px solid #FFFFFF;
-   -moz-border-radius: 0 100px 100px 0;
-   -webkit-border-radius: 0 100px 100px 0;
-   border-radius: 0 250px 250px 0;
-   margin-top: 100px;
-   margin-left: 0px;
-}
-#canasta2{
-  position: absolute;
-   width: 250px;
-   height: 300px;
-   border: 2px solid #FFFFFF;
-   -moz-border-radius: 0 100px 100px 0;
-   -webkit-border-radius: 0 100px 100px 0;
-   border-radius: 0 250px 250px 0;
-   margin-top: 100px;
-   margin-left: 745px;
-   transform: rotate(180deg);
-}
-#canasta1A{
-  position: absolute;
-  margin-top: 14vw;
-  margin-left: -.5vw;
-  width: 14vw;
-  height: 9vw;
-  border: 2px solid #FFFFFF;
-  transform: perspective(20vw) rotateY(45deg);
-}
-
-#canasta2A{
-  position: absolute;
-  margin-top: 14vw;
-  margin-left: 62vw;
-  width: 14vw;
-  height: 9vw;
-  border: 2px solid #FFFFFF;
-  transform: perspective(20vw) rotateY(45deg);
-}
-
-#canasta1B{
-  position: absolute;
+  #canasta1{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #FFFFFF;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 250px 250px 0;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  #canasta2{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #FFFFFF;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 250px 250px 0;
+    margin-top: 100px;
+    margin-left: 745px;
+    transform: rotate(180deg);
+  }
+  #canasta1A{
+    position: absolute;
+    margin-top: 14vw;
+    margin-left: -.5vw;
+    width: 14vw;
+    height: 9vw;
+    border: 2px solid #FFFFFF;
+    transform: perspective(20vw) rotateY(45deg);
+  }
+  #canasta2A{
+    position: absolute;
+    margin-top: 14vw;
+    margin-left: 59.8vw;
+    width: 14vw;
+    height: 9vw;
+    border: 2px solid #FFFFFF;
+    transform: perspective(20vw) rotateY(310deg);
+  }
+  #canasta1B{
+    position: absolute;
     width: 100px;
-     height: 100px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     border: 2px solid #FFFFFF;
-     margin-top: 203px;
-     margin-left: 90px;
-}
-
-#canasta2B{
-  position: absolute;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-top: 203px;
+    margin-left: 90px;
+  }
+  #canasta2B{
+    position: absolute;
     width: 100px;
-     height: 100px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     border: 2px solid #FFFFFF;
-     margin-top: 203px;
-     margin-left: 799px;
-}
-#centroBasquet{
-  position: absolute;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-top: 203px;
+    margin-left: 799px;
+  }
+  #centroBasquet{
+    position: absolute;
     width: 100px;
-     height: 100px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     border: 2px solid #FFFFFF;
-     margin-top: 200px;
-     margin-left: 450px;
-}
-
-#lineaCentroB{
-      position: absolute;
-      width: 1px;
-      height: 500px;
-      border: 2px solid #FFFFFF ;
-      margin-top: 0px;
-      margin-left: 500px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-top: 200px;
+    margin-left: 450px;
+  }
+  #lineaCentroB{
+    position: absolute;
+    width: 0px;
+    height: 500px;
+    border: 1px solid #FFFFFF ;
+    margin-top: 0px;
+    margin-left: 500px;
+    }
+  #balonBasquet{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 350px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    }
+     @keyframes example {
+       0%{left:0px; top:0px;}
+      25%{left:500px; top:0px;}
+      50%{left:200px; top:100px;}
+      75%{left:100px; top:200px;}
+      100%{left:200px; top:30px;}
     }

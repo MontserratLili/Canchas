@@ -1,52 +1,71 @@
 #canchaTenis{
-  style="display:none";
+  display: none;
   position: relative;
   width: 1000px;
   height: 500px;
-  border: 3px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
   background: #32CD32;
   margin-top: 50px;
   margin-left: 165px;
 }
-#a{
-  position: absolute;
-  width: 99.5%;
-  height: 25%;
-  border: 3px solid #FFFFFF;
-  margin-top: 0px;
-  margin-left: 0px;
-}
-#b{
-  position: absolute;
-  width: 99.5%;
-  height: 25%;
-  border: 3px solid #FFFFFF;
-  margin-top: 370px;
-  margin-left: 0px;
-}
-#c{
-  position: absolute;
-  width: 50%;
-  height: 23.5%;
-  border: 3px solid #FFFFFF;
-  margin-top: 128px;
-  margin-left: 247px;
-}
-
-#d{
-  position: absolute;
-  width: 50%;
-  height: 23.5%;
-  border: 3px solid #FFFFFF;
-  margin-top: 250px;
-  margin-left: 247px;
-}
-
-#e{
-  position: absolute;
-  width: 1px;
-  height: 500px;
-  border: 2px solid #FFFFFF ;
-  margin-top: 0px;
-  margin-left: 500px;
-}
+  #a{
+    position: absolute;
+    width: 100%;
+    height: 26%;
+    border: 1px solid #FFFFFF;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  #b{
+    position: absolute;
+    width: 100%;
+    height: 26%;
+    border: 1px solid #FFFFFF;
+    margin-top: 370px;
+    margin-left: 0px;
+  }
+  #c{
+    position: absolute;
+    width: 50%;
+    height: 23.5%;
+    border: 1px solid #FFFFFF;
+    margin-top: 131px;
+    margin-left: 247px;
+  }
+  #d{
+    position: absolute;
+    width: 50%;
+    height: 23.5%;
+    border: 1px solid #FFFFFF;
+    margin-top: 250.5px;
+    margin-left: 247px;
+  }
+  #e{
+    position: absolute;
+    width: 0px;
+    height: 500px;
+    border: 1px solid #FFFFFF ;
+    margin-top: 0px;
+    margin-left: 500px;
+  }
+  #pelotaTenis{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 350px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction:alternate;
+   }
+    @keyframes example {
+      0%{left:0px; top:0px;}
+      25%{left:500px; top:0px;}
+      50%{left:200px; top:100px;}
+      75%{left:100px; top:200px;}
+      100%{left:200px; top:30px;}
+    }

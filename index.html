@@ -7,15 +7,16 @@
     <link rel="stylesheet" type="text/css" href="css\canchasBasquet.css">
     <link rel="stylesheet" type="text/css" href="css\canchasTenis.css">
     <link rel="stylesheet" type="text/css" href="css\botones.css">
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Permanent+Marker" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets\trofeo.png">
   </head>
   <body>
-    <h1>Canchas</h1>
-    <article id="todo">
+    <nav><img src="assets\trofeo.png"/>Canchas<img src="assets\trofeo.png"/></nav>
+    <section id="todo">
       <section id="marcador" >
-        <button id="soccer" class="botones">Soccer</button>
-        <button id="basquet" class="botones">Basquet</button>
-        <button id="tenis" class="botones">Tenis</button>
+        <a href="#canchaSoccer"><button id="soccer" class="botones">Soccer</button></a>
+        <a href="#canchaBasquet"><button id="basquet" class="botones">Basquet</button></a>
+        <a href="#canchaTenis"><button id="tenis" class="botones">Tenis</button></a>
       </section>
       <section id="canchaSoccer">
         <div id="porteria1"></div>
@@ -24,6 +25,7 @@
         <div id="porteria2A"></div>
         <div id="centro"></div>
         <div id="lineaCentro"></div>
+        <div><img src="assets\soccer.jpg" id="balonSoccer"/></div>
       </section>
       <section id="canchaBasquet">
         <div id="canasta1"></div>
@@ -34,6 +36,7 @@
         <div id="canasta2B"></div>
         <div id="centroBasquet"></div>
         <div id="lineaCentroB"></div>
+        <div><img src="assets\basquet.jpg" id="balonBasquet"/></div>
       </section>
       <section id="canchaTenis">
         <div id="a"></div>
@@ -42,8 +45,9 @@
         <div id="d"></div>
         <div id="e"></div>
         <div id="f"></div>
+        <div><img src="assets\tenis.jpg" id="pelotaTenis"/></div>
       </section>
-    </article>
+    </section>
     <script src="js\canchas.js"></script>
   </body>
 </html>
